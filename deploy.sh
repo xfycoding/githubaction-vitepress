@@ -7,7 +7,16 @@ pnpm run docs:build
 # 进入生成的文件夹
 cd docs/.vitepress/dist
 
+# 清理 Git 仓库
+rm -rf .git
+
 git init
+
+#设置用户名
+git config --local user.name xfyCoding
+#设置用户邮箱
+git config --local user.email 508591736@qq.com
+
 git add -A
 git commit -m 'github pages自动化部署'
 
