@@ -1,0 +1,5 @@
+/node_modules/
+/pnpm-lock.yaml
+/.idea/
+/docs/.vitepress/dist/
+/docs/.vitepress/cache/
